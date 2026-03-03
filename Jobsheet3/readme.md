@@ -4,12 +4,15 @@
 No, because a class can exist with only attributes (as a way to store data) and/or only methods.
 ### 2. What does the following program code do?
 ![arrayOfMahasiswa delaration](image.png)
+
 Declares an array named arrayOfMahasiswa that can hold 3 references to Mahasiswa objects.
 ### 3.	Does the Student class have a constructor? If not, why is the constructor called in the following line of the program?
 ![constructor calling](image-1.png)
+
 No, the student class doesn’t have a constructor. The constructor is called because java automatically provides a default constructor.
 ### 4.	What does the following program code do?
 ![instantiation and initialization](image-2.png)
+
 Instantiation (creates a new Mahasiswa object and assigns it to the first index of the array)
 Initialization (assigns values (NIM, Name, Class, GPA) to the attributes of the object.)
 ### 5.	the Student and StudentDemo classes separated in test 3.2?
@@ -30,12 +33,13 @@ void printInfo() {
 ```
 ### 2. Suppose you have a new array array of type Students named myArrayOfStudents . Why does the following code cause an error?
 ![Error](image-3.png)
+
 Because the object on the 0<sup>th</sup> index haven’t been instantiated yet.
 
 ## 3.4.3 Questions
 ### 1.	Can a class have more than 1 constructor? If yes, give an example.
-yes, a default and a parameterized constructor
 
+yes, a default and a parameterized constructor
 - Default:
   ```java
   public Course5() {}
